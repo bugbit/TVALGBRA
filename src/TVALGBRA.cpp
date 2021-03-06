@@ -110,7 +110,11 @@ void TTVAlgebraApp::idle()
 
 int main()
 {
-    TTVAlgebraApp helloWorld;
-    helloWorld.run();
+    TTVAlgebraApp *app=new TTVAlgebraApp;
+    
+    app->run();
+
+    TObject::destroy(app);
+
     return 0;
 }
