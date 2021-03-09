@@ -350,3 +350,11 @@ MigrationBackup/
 .ionide/
 
 out/
+
+# bak
+
+*.bak
+*.csm
+*.~de
+
+obj*/
